@@ -34,8 +34,8 @@ For sending the response from Backend to Frontend, I have bind my java object in
   <br<br><hr>
   <h3>API'S<h3>
    1. Fetch API<br><br>
-   2. Jackson API
-    <br<br><hr>
+   2. Jackson API<hr>
+  
   # Installation
   1. Clone the git repository
   ```
