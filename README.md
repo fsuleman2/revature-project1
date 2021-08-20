@@ -82,7 +82,31 @@ foreign key (custusername) references custacctdetails(custusername));
  ## Over all View of Syed's Bank App
   <img src="https://github.com/fsuleman2/project0/blob/master/SYEDS_BANK_APP.png" width=800px height=400px><br>
   
-  
+ ## Screenshots
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s1.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s2.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s3.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s4.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s5.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s6.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s7.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s8.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s9.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s10.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s11.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s12.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s13.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s14.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s20.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s21.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/d1.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s23.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s24.PNG"><br>
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s25.PNG"><br>
+ 
+  ## Mobile View
+ <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s26.PNG"><br>
+                                           
   
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
