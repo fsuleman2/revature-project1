@@ -1,6 +1,12 @@
 # Revatute Project  1
 ## Syed's Banking Management App
-Syed's Banking Management App is an Updated Version of Syed's Bank Version 1, Which in Java Application Which allows Users to Open an account, Transfer funds to Different Accounts, Deposit Amount, Withdraw Amount and also provide facility to view previous transactions. The additioal thing I have added is Front-end Stack instead of plain console.
+Syed's Banking Management App is an Updated Version of Syed's Bank Version 1, Which is an Restful Web based Java Application Which allows Users to Open an account, Transfer funds to Different Accounts, Deposit Amount, Withdraw Amount and also provide facility to view previous transactions. The additioal thing I have added is Front-end Stack instead of plain console. <br>
+##  Request and Response Work Flow
+### Sending a Request
+For sending the request from Frontend to Backend, I have used JSON where I have converted my request into a JSON object and pass it on to the backend, As Java Servlet can't able read JSON data for proper communication between the Front-end and Back-end additionally I have used Jackson API, What it basically does is, it takes the JSON format data and convert a JSON string to an equivalent Java object.
+<br>
+### Sending a Response
+For sending the response from Backend to Frontend, I have bind my java object into a Jackson library object and converted the java object into an equivalent JSON object. From the Front End side, I have used Fetch API to fetch the details and then rendered it onto my View(HMTL page).
 
 <h3>Front-End Tech Stack & Tools<h3>
   1. HTML5 <br><br>
@@ -25,7 +31,11 @@ Syed's Banking Management App is an Updated Version of Syed's Bank Version 1, Wh
   1. VS CODE for Frontend Code<br><br>
   2. SPRING BOOT for Backend Code<br><br>
   3. DBEAVER for SQL Scripts<br>
-  
+  <br<br><hr>
+  <h3>API'S<h3>
+   1. Fetch API<br><br>
+   2. Jackson API
+    <br<br><hr>
   # Installation
   1. Clone the git repository
   ```
