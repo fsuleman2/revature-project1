@@ -96,9 +96,7 @@ foreign key (custusername) references custacctdetails(custusername));
  <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s11.PNG"><br>
  <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s12.PNG"><br>
  <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s13.PNG"><br>
- <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s14.PNG"><br>
  <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s20.PNG"><br>
- <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s21.PNG"><br>
  <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/d1.PNG"><br>
  <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s23.PNG"><br>
  <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s24.PNG"><br>
