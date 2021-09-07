@@ -11,7 +11,7 @@ For sending the response from Backend to Frontend, I have bind my java object in
 <h3>Front-End Tech Stack & Tools<h3>
   1. HTML5 <br><br>
   2. CSS3 <br><br>
-  3. Bootstrap 4.6v<br><br>
+  3. Bootstrap<br><br>
   4. JavaScript ES6<br><br>
   5. JSON for Parsing
   <hr>
