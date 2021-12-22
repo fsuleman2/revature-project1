@@ -47,13 +47,6 @@ For sending the response from Backend to Frontend, I have bind my java object in
   4. Go to com.app.dbutil => PostgresConnection.java => set your own credentials
   5. Run the below Queries in your DBEAVER
   ```sql
-<<<<<<< HEAD
-  --Do create schema named => bank_schema
-  -- creating 1)employeedetails table
-create table employeedetails(empusername varchar primary key,emppassword varchar not null , empname varchar not null);
-insert into employeedetails (empusername,emppassword,empname) values('syed123','123','Syed');
-  
-=======
 --Do create schema named => bank_schema
 -- creating 1)employeedetails table
 create table employeedetails(empusername varchar primary key,emppassword varchar not null , empname varchar not null);
@@ -97,11 +90,7 @@ foreign key (custusername) references custacctdetails(custusername));
   
   
  ## Over all View of Syed's Bank App
-  <img src="https://github.com/fsuleman2/project0/blob/master/SYEDS_BANK_APP.png" width=800px height=400px><br>
-  
-<<<<<<< HEAD
-  
-=======
+  <img src="https://github.com/fsuleman2/revature-project0/blob/master/SYEDS_BANK_APP.png" width=800px height=400px><br>
  ## Screenshots
  <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s1.PNG"><br>
  <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s2.PNG"><br>
@@ -124,8 +113,6 @@ foreign key (custusername) references custacctdetails(custusername));
  
   ## Mobile View
  <img src="https://github.com/fsuleman2/revature-project1/blob/master/screenshots/s26.PNG"><br>
-                                           
->>>>>>> 98e507e8a38c48156f38e5aaada98c681f037c3c
   
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
