@@ -1,8 +1,5 @@
 # Revatute Project  1
 ## Syed's Banking Management App
-<<<<<<< HEAD
-Syed's Banking Management App is an Updated Version of Syed's Bank Version 1, Which in Java Application Which allows Users to Open an account, Transfer funds to Different Accounts, Deposit Amount, Withdraw Amount and also provide facility to view previous transactions. The additioal thing I have added is Front-end Stack instead of plain console.
-=======
 Syed's Banking Management App is an Updated Version of Syed's Bank Version 1, Which is an Restful Web based Java Application Which allows Users to Open an account, Transfer funds to Different Accounts, Deposit Amount, Withdraw Amount and also provide facility to view previous transactions. The additioal thing I have added is Front-end Stack instead of plain console. <br>
 ##  Request and Response Work Flow
 ### Sending a Request
@@ -10,16 +7,11 @@ For sending the request from Frontend to Backend, I have used JSON where I have 
 <br>
 ### Sending a Response
 For sending the response from Backend to Frontend, I have bind my java object into a Jackson library object and converted the java object into an equivalent JSON object. From the Front End side, I have used Fetch API to fetch the details and then rendered it onto my View(HMTL page).
->>>>>>> 98e507e8a38c48156f38e5aaada98c681f037c3c
 
 <h3>Front-End Tech Stack & Tools<h3>
   1. HTML5 <br><br>
   2. CSS3 <br><br>
-<<<<<<< HEAD
-  3. Bootstrap 4.6v<br><br>
-=======
   3. Bootstrap<br><br>
->>>>>>> 98e507e8a38c48156f38e5aaada98c681f037c3c
   4. JavaScript ES6<br><br>
   5. JSON for Parsing
   <hr>
@@ -39,13 +31,10 @@ For sending the response from Backend to Frontend, I have bind my java object in
   1. VS CODE for Frontend Code<br><br>
   2. SPRING BOOT for Backend Code<br><br>
   3. DBEAVER for SQL Scripts<br>
-<<<<<<< HEAD
-=======
   <br<br><hr>
   <h3>API'S<h3>
    1. Fetch API<br><br>
    2. Jackson API<hr>
->>>>>>> 98e507e8a38c48156f38e5aaada98c681f037c3c
   
   # Installation
   1. Clone the git repository
@@ -69,32 +58,23 @@ insert into employeedetails (empusername,emppassword,empname) values('syed123','
 -- creating 1)employeedetails table
 create table employeedetails(empusername varchar primary key,emppassword varchar not null , empname varchar not null);
 insert into employeedetails (empusername,emppassword,empname) values('syed123','123','Syed');
-
->>>>>>> 98e507e8a38c48156f38e5aaada98c681f037c3c
 -- creating 2) custlogindetails table
 create table custlogindetails(name varchar not null,email varchar not null,username varchar primary key,password varchar not null);
 
 -- creating 3) customer_personal_info table
 create table customer_personal_info(custusername varchar primary key, custfname varchar not null, custlname varchar not null, custgender varchar not null,
 custdob varchar not null,
-<<<<<<< HEAD
-custmobileno int8(10) not null unique,
-=======
+
 custmobileno varchar not null unique,
->>>>>>> 98e507e8a38c48156f38e5aaada98c681f037c3c
+
 custpan varchar not null unique,
 custcity varchar not null,
 custstate varchar not null,
 openingbalance float4 not null);
-<<<<<<< HEAD
-  
 
- -- creating 4) custacctdetails
-=======
 
 
 -- creating 4) custacctdetails
->>>>>>> 98e507e8a38c48156f38e5aaada98c681f037c3c
 create table custacctdetails(custfname varchar not null,
 custusername varchar primary key,
 openingbalance float4 not null,
@@ -109,13 +89,6 @@ tdate date default CURRENT_DATE,
 closingbalance float4,
 custusername varchar not null,
 foreign key (custusername) references custacctdetails(custusername));
-
-<<<<<<< HEAD
-=======
-select * from employeedetails;
-
->>>>>>> 98e507e8a38c48156f38e5aaada98c681f037c3c
-```
  
  6. After Succesfully creation of schema and running the quries.
  7. Go to the Project <br>
